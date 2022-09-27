@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  background-image: url(images/batmanwllpaper.jpg);
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 100px;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.contenido {
+  padding: 10px;
+}
+
+.left-side {
+  position: relative;
+  background-color: rgb(21, 22, 32);
+  padding: 20px;
+  color: white;
+  justify-content: center;
+}
+.left-side-title {
+  padding-bottom: 2px;
+  margin-bottom: 10px;
+}
+.span {
+  padding: 10px;
+}
+
+.icon {
+  padding: 6px;
+}
+
+.bruce-pfp {
+  overflow: hidden;
+}
+
+.bruce-pfp .pfp-image-src {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bruce-pfp img {
+  border-radius: 50%;
+  margin-left: 70px;
+}
+
+.profile-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(165, 42, 159);
+}
+
+.contact-info {
+  padding: 20px;
+  width: 300px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  position: relative;
+}
+.contact-info ul li {
+  display: inline-block;
+}
+
+.right-side {
+  position: relative;
+  background-color: white;
+  padding: 40px;
+}
+
+.right-side-title {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(165, 42, 159);
+}
+
+.prof-exp-list {
+  list-style-type: none;
+}
+
+.prof-experience .percent {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background-color: rgb(247, 215, 244);
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.prof-experience .percent div {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  background-color: rgb(165, 42, 159);
+  display: inline-block;
+}
